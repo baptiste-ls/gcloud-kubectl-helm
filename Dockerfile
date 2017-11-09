@@ -1,6 +1,6 @@
 FROM greenwall/gcloud-kubectl:latest
 
-ENV HELM_VERSION v2.6.2
+ENV HELM_VERSION v2.7.0
 
 RUN set -ex ; \
   apk --no-cache --virtual .setup_dependencies add ca-certificates wget; \
